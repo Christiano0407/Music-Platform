@@ -64,3 +64,58 @@ img {
     align-items: center;
     flex-direction: column;
 }
+.column h1 {
+    width: 100%;
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.music-container {
+    background-color: var(--Clr-White);
+    border-radius: 1.5rem;
+   /*  box-shadow: 0 20px 20px 0 rgba(252, 169, 169, 0.6); */
+   box-shadow: 0 20px 20px 0 rgba(0, 0, 0, 0.6);
+   padding: 2rem;
+   width: 400px;
+   height: 400px;
+}
+.music-info {
+ width: 100%;
+ height: 2rem;
+}
+.music-info  h4 {
+  font-size: 1.2rem;
+  font-weight: bold;
+  
+}
+
+.img-container {
+    display: flex;
+    justify-content: center;
+}
+.img-container img {
+    border-radius: 1rem;
+}
+.navigation {
+    width: 100%;
+    height: 75px;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+    justify-items: center;
+}
+
+.navigation .action-btn {
+    height: 25px;
+    width: 50px;
+    border-radius: .5rem;
+    border: none;
+    box-shadow: 1px 2px 5px 1px #000000;
+    margin-top: .5rem;
+    margin-top: 1rem;
+}
+
