@@ -30,4 +30,37 @@ a {
 }
 body {
     font-family: 'Rubik', sans-serif;
+    height: 100vh;
+    background: linear-gradient(0deg, rgb(247, 247, 247) 23.8%,
+    rgb(252, 221, 221) )92%;
+}
+
+header {
+    width: 100%;
+    height: 15vh;
+    background-color: var(--clr-One);
+}
+nav {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+img {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    width: 300px;
+    height: 250px;
+}
+
+.column {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
