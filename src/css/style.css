@@ -38,7 +38,7 @@ body {
 header {
     width: 100%;
     height: 15vh;
-    background-color: var(--clr-One);
+    background-color: var(--clr-Black);
 }
 nav {
     width: 100%;
@@ -117,5 +117,6 @@ img {
     box-shadow: 1px 2px 5px 1px #000000;
     margin-top: .5rem;
     margin-top: 1rem;
+    cursor: pointer;
 }
 
