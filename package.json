@@ -1,0 +1,23 @@
+{
+  "name": "music",
+  "version": "1.0.0",
+  "description": "platform-music",
+  "main": "src/js/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Christiano0407/Music-Platform.git"
+  },
+  "keywords": [
+    "javascript",
+    "music"
+  ],
+  "author": "Chris04",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Christiano0407/Music-Platform/issues"
+  },
+  "homepage": "https://github.com/Christiano0407/Music-Platform#readme"
+}
