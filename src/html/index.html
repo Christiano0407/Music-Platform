@@ -22,7 +22,7 @@
      </header>
 
      <main>
-         <section class="column">
+      <!--    <section class="column">
              
           <h1>Music Player</h1>
           <section class="music-container">
@@ -50,9 +50,9 @@
                   </button>
               </div>
           </section>
-         </section>
+         </section> -->
 
-        <div class="song-column">
+        <!-- <div class="song-column">
             <section class="song-container" id="song-container">
                 <div class="song-info">
                     <h4 class="song-title" id="song-title"></h4>
@@ -61,10 +61,10 @@
                     </div>
                 </div>
 
-                <audio src="../assets/music/music-player_music_summer.mp3" alt="song-cover" id="song-audio" ></audio>
+                <audio src="../asset/music-player_music_summer.mp3" alt="song-cover" id="song-audio" ></audio>
 
                 <div class="image-container">
-                    <img src="../assets/images/jakob-owens-ycExgCMRggc-unsplash.jpg"  alt="song-img" id="song-cover">
+                    <img src="../assets/images/jakob-owens-ycExgCMRggc-unsplash.jpg"  alt="song-img" id="cover">
                 </div>
                 <div class="song-navigation">
                     <button id="prev" class="song-btn">
@@ -78,6 +78,34 @@
                     </button>
                 </div>
            </section>
+        </div> -->
+
+        <h1>Music Player</h1>
+
+        <div class="music-container" id="music-container">
+          <div class="music-info">
+            <h4 id="title"></h4>
+            <div class="progress-container" id="progress-container">
+              <div class="progress" id="progress"></div>
+            </div>
+          </div>
+    
+          <audio src="../assets/music/music-player_music_ukulele.mp3" id="audio"></audio>
+    
+          <div class="img-container">
+            <img src="../assets/images/fabio-oyXis2kALVg-unsplash.jpg" alt="music-cover" id="cover" />
+          </div>
+          <div class="navigation">
+            <button id="prev" class="action-btn">
+              <i class="fas fa-backward"></i>
+            </button>
+            <button id="play" class="action-btn action-btn-big">
+              <i class="fas fa-play"></i>
+            </button>
+            <button id="next" class="action-btn">
+              <i class="fas fa-forward"></i>
+            </button>
+          </div>
         </div>
      </main>
 
