@@ -58,6 +58,7 @@ const prevBtn = document.getElementById('prev');
 const nextBtn = document.getElementById('next');
 
 const audio = document.getElementById('audio');
+
 const progress = document.getElementById('progress');
 const progressContainer = document.getElementById('progress-container');
 const title = document.getElementById('title');
@@ -76,7 +77,7 @@ loadSong(songs[songIndex]);
 function loadSong(song) {
   title.innerText = song;
   audio.src = `music/${song}.mp3`;
-  cover.src = `images/${song}.jpg`;
+  cover.src = `../assets/images/fabio-oyXis2kALVg-unsplash.jpg`;
 }
 
 // Play song
