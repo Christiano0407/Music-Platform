@@ -17,4 +17,7 @@ const songTitle = document.getElementById(`song-title`);
 const cover = document.getElementById(`cover`); 
 
 // Song Titles
+const songs = ["hey", "summer", "ukulele"]; 
 
+// Keep Track of song 
+const songIndex = 2; 
