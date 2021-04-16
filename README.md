@@ -64,6 +64,9 @@ Create Music Platform and beautiful play music.
 
 ## Animate Css
 [Animate](https://animate.style/)
+
+## Web Gradient
+[Web Gradient](https://webgradients.com/)
 # Tips:
 - Posicionamiento.
 
