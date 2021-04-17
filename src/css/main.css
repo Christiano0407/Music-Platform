@@ -145,7 +145,7 @@ width: 110px;
     left: 20px;
     width: calc(100% - 40px);
     transform: translateY(0%);
-    transition: transform 0.3s ease-in, opacity;
+    transition: transform 0.3s ease-in opacity 0.3s ease-in;
     padding: 10px 10px 10px 150px;
     opacity: 0;
     z-index: 0;
